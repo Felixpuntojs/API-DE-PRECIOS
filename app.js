@@ -14,7 +14,7 @@ app.get('/config.json', (req, res) => {
   res.json({
     workflowApiVersion: 1,
     metaData: {
-      icon: 'https://example.com/icon.png',
+      icon: 'https://cdn-icons-png.flaticon.com/512/5775/5775239.png',
       category: 'custom'
     },
     type: 'REST',
