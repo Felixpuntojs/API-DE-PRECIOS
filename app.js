@@ -32,7 +32,7 @@ app.get('/config.json', (req, res) => {
         outArguments: [
           { precio: 'number' }
         ],
-        url: 'https://TU_DOMINIO/api/precio/execute',
+        url: 'https://api-de-precios.onrender.com/execute',
         timeout: 10000,
         retryCount: 3
       }
