@@ -1,3 +1,5 @@
+const cors = require('cors');
+app.use(cors());
 // app.js
 const express = require('express');
 const app = express();
