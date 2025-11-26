@@ -15,7 +15,7 @@ app.get('/config.json', (req, res) => {
     workflowApiVersion: 1,
     metaData: {
       icon: 'https://example.com/icon.png',
-      category: 'customer'
+      category: 'custom'
     },
     type: 'REST',
     lang: {
